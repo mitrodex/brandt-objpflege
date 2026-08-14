@@ -22,11 +22,11 @@ function ImprintContent() {
           <p className="mt-5 leading-7 text-slate-600">
             Brandt Objektpflege
             <br />
-            Inhaber: [Vorname Nachname]
+            Inhaber: Jonas Brandt
             <br />
-            [Straße Hausnummer]
+            Moorlandbogen 16
             <br />
-            [PLZ Ort]
+            21149 Hamburg
             <br />
             Deutschland
           </p>
@@ -34,11 +34,9 @@ function ImprintContent() {
         <div className="lg:w-1/2">
           <h2 className="text-xl font-bold">Kontakt</h2>
           <p className="mt-5 leading-7 text-slate-600">
-            Telefon: [Telefonnummer]
+            Telefon: +49 174 7287170
             <br />
-            E-Mail: [E-Mail-Adresse]
-            <br />
-            Umsatzsteuer-ID: [falls vorhanden]
+            E-Mail: kontakt@brandt-objektpflege.de
           </p>
           <h2 className="mt-8 text-xl font-bold">Verbraucherstreitbeilegung</h2>
           <p className="mt-4 leading-7 text-slate-600">
@@ -73,7 +71,8 @@ function PrivacyContent() {
         <div className="flex flex-col gap-8 leading-7 lg:w-[65%]">
           <LegalArticle title="Verantwortlicher">
             Verantwortlich für die Datenverarbeitung ist Brandt Objektpflege,
-            [Inhaber], [Adresse], [E-Mail-Adresse], [Telefonnummer].
+            Jonas Brandt, Moorlandbogen 16, 21149 Hamburg,
+            kontakt@brandt-objektpflege.de, +49 174 7287170.
           </LegalArticle>
           <LegalArticle title="Kontaktformular">
             <p>
@@ -99,11 +98,11 @@ function PrivacyContent() {
           </LegalArticle>
           <LegalArticle title="Hosting und Serverdaten">
             Beim Aufruf der Webseite können durch den Hosting-Anbieter
-            technische Zugriffsdaten verarbeitet werden, zum Beispiel IP-Adresse,
-            Datum und Uhrzeit des Abrufs, Browsertyp, Betriebssystem und
-            angefragte Dateien. Die Verarbeitung dient der sicheren und stabilen
-            Bereitstellung der Webseite. Rechtsgrundlage ist Art. 6 Abs. 1 lit.
-            f DSGVO.
+            technische Zugriffsdaten verarbeitet werden, zum Beispiel
+            IP-Adresse, Datum und Uhrzeit des Abrufs, Browsertyp, Betriebssystem
+            und angefragte Dateien. Die Verarbeitung dient der sicheren und
+            stabilen Bereitstellung der Webseite. Rechtsgrundlage ist Art. 6
+            Abs. 1 lit. f DSGVO.
           </LegalArticle>
           <LegalArticle title="Speicherdauer">
             Kontaktanfragen speichern wir nur so lange, wie dies zur Bearbeitung

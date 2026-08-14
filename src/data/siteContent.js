@@ -1,4 +1,5 @@
-export const formSubmitEndpoint = "https://formsubmit.co/deine-email@example.de";
+export const formSubmitEndpoint =
+  "https://formsubmit.co/4bc3f9ae79b1db0e96f0b056d924abe9";
 
 export const navLinks = [
   { href: "#leistungen", label: "Leistungen" },

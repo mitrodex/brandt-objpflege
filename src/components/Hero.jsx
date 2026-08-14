@@ -1,8 +1,11 @@
 import brandLogo from "../assets/logo-big.jpeg";
+import heroBg from "../assets/hero-bg.png";
 
 const heroBackground = {
   backgroundImage:
-    "radial-gradient(circle at 82% 18%, rgba(148, 163, 184, 0.34), transparent 30%), linear-gradient(135deg, #071b3d 0%, #0b2a5a 48%, #6f7479 100%)",
+    `linear-gradient(90deg, rgba(7, 27, 61, 0.86) 0%, rgba(7, 27, 61, 0.7) 43%, rgba(7, 27, 61, 0.28) 100%), url(${heroBg})`,
+  backgroundPosition: "center",
+  backgroundSize: "cover",
 };
 
 function Hero() {

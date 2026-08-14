@@ -26,9 +26,15 @@ function HomePage() {
 
 function ServicesSection() {
   return (
-    <section id="leistungen" className="scroll-mt-24 bg-white px-5 py-20 sm:px-8">
+    <section
+      id="leistungen"
+      className="scroll-mt-24 bg-white px-5 py-20 sm:px-8"
+    >
       <div className="mx-auto max-w-7xl">
-        <SectionIntro eyebrow="Leistungen" title="Reinigung, die zum Objekt passt.">
+        <SectionIntro
+          eyebrow="Leistungen"
+          title="Reinigung, die zum Objekt passt."
+        >
           Vom gepflegten Treppenhaus bis zur laufenden Büroreinigung: Leistungen
           werden passend zu Nutzung, Frequenz und Anspruch zusammengestellt.
         </SectionIntro>
@@ -68,7 +74,10 @@ function ProcessSection() {
 
 function ObjectsSection() {
   return (
-    <section id="objekte" className="scroll-mt-24 bg-slate-50 px-5 py-20 sm:px-8">
+    <section
+      id="objekte"
+      className="scroll-mt-24 bg-slate-50 px-5 py-20 sm:px-8"
+    >
       <div className="mx-auto flex max-w-7xl flex-col gap-12 lg:flex-row lg:items-center">
         <div className="lg:w-1/2">
           <SectionIntro
@@ -93,9 +102,8 @@ function ContactSection() {
       <div className="mx-auto flex max-w-7xl flex-col gap-12 lg:flex-row">
         <div className="lg:w-[42%]">
           <SectionIntro eyebrow="Kontakt" title="Objektpflege besprechen.">
-            Schreiben Sie kurz, welches Objekt gereinigt werden soll und welche
-            Leistungen Sie benötigen. Brandt Objektpflege meldet sich zur
-            Abstimmung der nächsten Schritte.
+            Senden Sie uns Ihre Anfrage mit den gewünschten Leistungen. Wir
+            setzen uns zeitnah mit Ihnen in Verbindung und klären die Details.
           </SectionIntro>
         </div>
         <div className="lg:w-[58%]">
