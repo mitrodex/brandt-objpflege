@@ -4,7 +4,7 @@ function BrandLink({ compact = false, tone = "light" }) {
   const textColor = tone === "dark" ? "text-[#071b3d]" : "text-white";
 
   return (
-    <a href="#" className={`flex items-center gap-3 font-semibold ${textColor}`}>
+    <a href="/" className={`flex items-center gap-3 font-semibold ${textColor}`}>
       <img
         src={brandIcon}
         alt=""

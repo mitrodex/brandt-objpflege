@@ -8,10 +8,10 @@ function Footer({ simple = false }) {
           <a className="transition hover:text-[#071b3d]" href="#">
             Startseite
           </a>
-          <a className="transition hover:text-[#071b3d]" href="#/impressum">
+          <a className="transition hover:text-[#071b3d]" href="/impressum">
             Impressum
           </a>
-          <a className="transition hover:text-[#071b3d]" href="#/datenschutz">
+          <a className="transition hover:text-[#071b3d]" href="/datenschutz">
             Datenschutz
           </a>
         </div>
@@ -31,10 +31,10 @@ function Footer({ simple = false }) {
           © Brandt Objektpflege
         </p>
         <div className="flex flex-wrap gap-5">
-          <a className="transition hover:text-[#071b3d]" href="#/impressum">
+          <a className="transition hover:text-[#071b3d]" href="/impressum">
             Impressum
           </a>
-          <a className="transition hover:text-[#071b3d]" href="#/datenschutz">
+          <a className="transition hover:text-[#071b3d]" href="/datenschutz">
             Datenschutz
           </a>
           <span>Gebäudereinigung, Objektpflege, Service</span>

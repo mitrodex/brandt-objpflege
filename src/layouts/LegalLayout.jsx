@@ -9,7 +9,7 @@ function LegalLayout({ children }) {
           <BrandLink tone="dark" />
           <a
             className="rounded-md bg-[#071b3d] px-4 py-2 text-sm font-bold text-white"
-            href="#"
+            href="/"
           >
             Zur Startseite
           </a>

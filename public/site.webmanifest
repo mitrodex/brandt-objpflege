@@ -1,0 +1,19 @@
+{
+  "name": "Brandt Objektpflege",
+  "short_name": "Brandt",
+  "description": "Objektpflege und Gebaeudereinigung in Hamburg.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#071b3d",
+  "lang": "de",
+  "icons": [
+    {
+      "src": "/icon.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ]
+}

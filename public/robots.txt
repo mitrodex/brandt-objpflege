@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://brandt-objektpflege.de/sitemap.xml
+Host: brandt-objektpflege.de
